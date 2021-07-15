@@ -95,8 +95,16 @@ button a{
     color: white;
 }
 
+
 @media (max-width: 800px) {
     .container {
       flex-wrap: wrap;
+      text-align: justify;
     }
+    .left {
+        text-align: center;
+        margin:0;
+        padding: 25%;
+    }
+
 }
