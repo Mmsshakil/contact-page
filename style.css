@@ -95,15 +95,18 @@ button a{
     color: white;
 }
 
-
 @media (max-width: 800px) {
+
     .container {
-      flex-wrap: wrap;
-      text-align: justify;
+        padding: 0%;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 5%;
+        width: 90%;
     }
     .left {
+        margin: auto;
         text-align: center;
         
     }
-
 }
