@@ -94,3 +94,8 @@ button a{
     text-decoration: none;
     color: white;
 }
+
+@media (max-width: 800px) {
+    .container {
+      flex-wrap: wrap;
+    }
